@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D095B87824454F3A2410C58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F67415A82B7EE5E96787A025 /* CoreGraphics.framework */; };
+		2286ED5678D1EDFA482047F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90E80326D01954F17EC8E07 /* UIKit.framework */; };
+		2F1441D1DBCC33F4073681CB /* libapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F365DE7AD3A255D32AF3C7A5 /* libapp.a */; };
+		481AA01DE8C774ECE6626B77 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C49B36612F9BB44930E8D5C7 /* WebKit.framework */; };
+		4E45591F1AACC847DD9357A2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D339A7EF43EDFDBEB516BC65 /* QuartzCore.framework */; };
+		A28D9BC7A375940CF35BE349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB22753CC286AF3A0AE3133 /* LaunchScreen.storyboard */; };
+		BF174B14E3A5780CF998D502 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7E5C6325BDEEDE530BD60B /* Metal.framework */; };
+		DF5980B127BAEF9432335F63 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BC573E05FC2D2DBF7EB87D /* Security.framework */; };
+		E1A3E59C00E099C4CF07E775 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = EC559BF7F450C52E7420702C /* main.mm */; };
+		E691C2C575FC589DE79E32F9 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 21E23E9B108DBB137921423A /* assets */; };
+		ED1400DCD83B4551590A9E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9661DD4F53BB622BCF20A208 /* Assets.xcassets */; };
+		FF8C96B35A82B2403CF107E6 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8936744168950FF3EA56847 /* MetalKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00B18F0C92D4DDB4FE02096D /* stockify_iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = stockify_iOS.entitlements; sourceTree = "<group>"; };
+		099C3F159DC7FAFC640A881B /* main.rs */ = {isa = PBXFileReference; path = main.rs; sourceTree = "<group>"; };
+		0C7E5C6325BDEEDE530BD60B /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		21E23E9B108DBB137921423A /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = SOURCE_ROOT; };
+		434CFEC4529B99A04E8744E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6AE5CFAFE9921A6514941987 /* bindings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bindings.h; sourceTree = "<group>"; };
+		9661DD4F53BB622BCF20A208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9897DB57F6C630895F37EC53 /* lib.rs */ = {isa = PBXFileReference; path = lib.rs; sourceTree = "<group>"; };
+		BBB22753CC286AF3A0AE3133 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C49B36612F9BB44930E8D5C7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C90E80326D01954F17EC8E07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D339A7EF43EDFDBEB516BC65 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E1BC573E05FC2D2DBF7EB87D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EC559BF7F450C52E7420702C /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		F365DE7AD3A255D32AF3C7A5 /* libapp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libapp.a; sourceTree = "<group>"; };
+		F67415A82B7EE5E96787A025 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F842889D09EB4B4AB4D9261A /* stockify_iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = stockify_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8936744168950FF3EA56847 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3024DD417EEE6F5DD3DD18F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1441D1DBCC33F4073681CB /* libapp.a in Frameworks */,
+				0D095B87824454F3A2410C58 /* CoreGraphics.framework in Frameworks */,
+				BF174B14E3A5780CF998D502 /* Metal.framework in Frameworks */,
+				FF8C96B35A82B2403CF107E6 /* MetalKit.framework in Frameworks */,
+				4E45591F1AACC847DD9357A2 /* QuartzCore.framework in Frameworks */,
+				DF5980B127BAEF9432335F63 /* Security.framework in Frameworks */,
+				2286ED5678D1EDFA482047F7 /* UIKit.framework in Frameworks */,
+				481AA01DE8C774ECE6626B77 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16B0FDF16BC690F9305FEAE5 = {
+			isa = PBXGroup;
+			children = (
+				21E23E9B108DBB137921423A /* assets */,
+				9661DD4F53BB622BCF20A208 /* Assets.xcassets */,
+				BBB22753CC286AF3A0AE3133 /* LaunchScreen.storyboard */,
+				8ED091D9F8846AF0F511F122 /* Externals */,
+				61211773E0807EF186EF6B38 /* Sources */,
+				F7A288F4E8954D0EC97946E9 /* src */,
+				2D7B5F85382189782191D885 /* stockify_iOS */,
+				7CCD14753E90038043DD8338 /* Frameworks */,
+				D0925A622604FBCF8FD7A4D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D7B5F85382189782191D885 /* stockify_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				434CFEC4529B99A04E8744E2 /* Info.plist */,
+				00B18F0C92D4DDB4FE02096D /* stockify_iOS.entitlements */,
+			);
+			path = stockify_iOS;
+			sourceTree = "<group>";
+		};
+		3C89959A314E245042B11699 /* bindings */ = {
+			isa = PBXGroup;
+			children = (
+				6AE5CFAFE9921A6514941987 /* bindings.h */,
+			);
+			path = bindings;
+			sourceTree = "<group>";
+		};
+		61211773E0807EF186EF6B38 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FB48A68B35281121777DB198 /* stockify */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		7CCD14753E90038043DD8338 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F67415A82B7EE5E96787A025 /* CoreGraphics.framework */,
+				F365DE7AD3A255D32AF3C7A5 /* libapp.a */,
+				0C7E5C6325BDEEDE530BD60B /* Metal.framework */,
+				F8936744168950FF3EA56847 /* MetalKit.framework */,
+				D339A7EF43EDFDBEB516BC65 /* QuartzCore.framework */,
+				E1BC573E05FC2D2DBF7EB87D /* Security.framework */,
+				C90E80326D01954F17EC8E07 /* UIKit.framework */,
+				C49B36612F9BB44930E8D5C7 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8ED091D9F8846AF0F511F122 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		D0925A622604FBCF8FD7A4D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F842889D09EB4B4AB4D9261A /* stockify_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7A288F4E8954D0EC97946E9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				9897DB57F6C630895F37EC53 /* lib.rs */,
+				099C3F159DC7FAFC640A881B /* main.rs */,
+			);
+			name = src;
+			path = ../../src;
+			sourceTree = "<group>";
+		};
+		FB48A68B35281121777DB198 /* stockify */ = {
+			isa = PBXGroup;
+			children = (
+				EC559BF7F450C52E7420702C /* main.mm */,
+				3C89959A314E245042B11699 /* bindings */,
+			);
+			path = stockify;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20BDAC046AD1F57E56125091 /* stockify_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A610ED4E7BF4FFE5D223F43F /* Build configuration list for PBXNativeTarget "stockify_iOS" */;
+			buildPhases = (
+				C3929D81D71681A0A1EA8AC0 /* Build Rust Code */,
+				786C2360E242EBB6DD9EAEBD /* Sources */,
+				5BEC97D97B7105B855A59F00 /* Resources */,
+				3024DD417EEE6F5DD3DD18F2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stockify_iOS;
+			productName = stockify_iOS;
+			productReference = F842889D09EB4B4AB4D9261A /* stockify_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6BBE4E38F761CF2EC711C17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 5A8E45A949CFF1BF4789DBE8 /* Build configuration list for PBXProject "stockify" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 16B0FDF16BC690F9305FEAE5;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20BDAC046AD1F57E56125091 /* stockify_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BEC97D97B7105B855A59F00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1400DCD83B4551590A9E7E /* Assets.xcassets in Resources */,
+				A28D9BC7A375940CF35BE349 /* LaunchScreen.storyboard in Resources */,
+				E691C2C575FC589DE79E32F9 /* assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3929D81D71681A0A1EA8AC0 /* Build Rust Code */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Rust Code";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(SRCROOT)/Externals/x86_64/${CONFIGURATION}/libapp.a",
+				"$(SRCROOT)/Externals/arm64/${CONFIGURATION}/libapp.a",
+				"$(SRCROOT)/Externals/arm64-sim/${CONFIGURATION}/libapp.a",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "npm run -- tauri ios xcode-script -v --platform ${PLATFORM_DISPLAY_NAME:?} --sdk-root ${SDKROOT:?} --framework-search-paths \"${FRAMEWORK_SEARCH_PATHS:?}\" --header-search-paths \"${HEADER_SEARCH_PATHS:?}\" --gcc-preprocessor-definitions \"${GCC_PREPROCESSOR_DEFINITIONS:-}\" --configuration ${CONFIGURATION:?} ${FORCE_COLOR} ${ARCHS:?}";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		786C2360E242EBB6DD9EAEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A3E59C00E099C4CF07E775 /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2692FE013463B9443C28A673 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ARCHS = (
+					arm64,
+					"arm64-sim",
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = stockify_iOS/stockify_iOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "arm64-sim x86_64";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\".\"",
+				);
+				INFOPLIST_FILE = stockify_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=arm64-sim]" = "$(inherited) $(PROJECT_DIR)/Externals/arm64-sim/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				"LIBRARY_SEARCH_PATHS[arch=arm64]" = "$(inherited) $(PROJECT_DIR)/Externals/arm64/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				"LIBRARY_SEARCH_PATHS[arch=x86_64]" = "$(inherited) $(PROJECT_DIR)/Externals/x86_64/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stockify.app;
+				PRODUCT_NAME = stockify;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64  arm64-sim";
+			};
+			name = release;
+		};
+		D5DD842A5D36FB8073812210 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ARCHS = (
+					arm64,
+					"arm64-sim",
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = stockify_iOS/stockify_iOS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "arm64-sim x86_64";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\".\"",
+				);
+				INFOPLIST_FILE = stockify_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=arm64-sim]" = "$(inherited) $(PROJECT_DIR)/Externals/arm64-sim/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				"LIBRARY_SEARCH_PATHS[arch=arm64]" = "$(inherited) $(PROJECT_DIR)/Externals/arm64/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				"LIBRARY_SEARCH_PATHS[arch=x86_64]" = "$(inherited) $(PROJECT_DIR)/Externals/x86_64/$(CONFIGURATION) $(SDKROOT)/usr/lib/swift $(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME) $(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stockify.app;
+				PRODUCT_NAME = stockify;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64  arm64-sim";
+			};
+			name = debug;
+		};
+		E207465B9F11C1D6E7D231FA /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = debug;
+		};
+		F6807758110C7806D44BB49D /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A8E45A949CFF1BF4789DBE8 /* Build configuration list for PBXProject "stockify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E207465B9F11C1D6E7D231FA /* debug */,
+				F6807758110C7806D44BB49D /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+		A610ED4E7BF4FFE5D223F43F /* Build configuration list for PBXNativeTarget "stockify_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DD842A5D36FB8073812210 /* debug */,
+				2692FE013463B9443C28A673 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6BBE4E38F761CF2EC711C17 /* Project object */;
+}
